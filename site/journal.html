@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeGuard - Журнал</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="LifeGuard Logo">
+                <h1>LifeGuard</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                    <li><a href="team.html">Участники</a></li>
+                    <li class="active"><a href="journal.html">Журнал</a></li>
+                    <li><a href="resources.html">Ресурсы</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="journal">
+            <h2>Журнал разработки</h2>
+            
+            <article class="journal-entry">
+                <div class="entry-header">
+                    <h3>Февраль 2025</h3>
+                    <span class="date">15.02.2025</span>
+                </div>
+                <div class="entry-content">
+                    <h4>Начало работы над звуковым дизайном</h4>
+                    <p>Проведены первые полевые записи на производственном предприятии. Зафиксированы базовые звуки:</p>
+                    <ul>
+                        <li>Работа станков и конвейеров</li>
+                        <li>Звуки предупреждающей сигнализации</li>
+                        <li>Фоновый шум цеха</li>
+                    </ul>
+                    <p>Начата работа над каталогизацией звуков и созданием первой версии звуковой библиотеки.</p>
+                    <audio controls>
+                        <source src="sounds/warning.mp3" type="audio/mpeg">
+                        Ваш браузер не поддерживает аудио элемент.
+                    </audio>
+                    <p class="caption">Первый вариант звука предупреждающей сигнализации</p>
+                </div>
+            </article>
+            
+            <article class="journal-entry">
+                <div class="entry-header">
+                    <h3>Март 2025</h3>
+                    <span class="date">10.03.2025</span>
+                </div>
+                <div class="entry-content">
+                    <h4>Разработка системы пространственного звука</h4>
+                    <p>Завершена работа над системой 3D-звука для VR-версии проекта. Основные достижения:</p>
+                    <ul>
+                        <li>Реализована система HRTF для точного позиционирования звуков</li>
+                        <li>Созданы специальные пресеты для разных типов производственных помещений</li>
+                        <li>Оптимизирована нагрузка на процессор при обработке множества звуковых источников</li>
+                    </ul>
+                    <p>Проведено первое тестирование с фокус-группой из 5 человек. Получены положительные отзывы о реалистичности звуковой картины.</p>
+                </div>
+            </article>
+            
+            <article class="journal-entry">
+                <div class="entry-header">
+                    <h3>Апрель 2025</h3>
+                    <span class="date">22.04.2025</span>
+                </div>
+                <div class="entry-content">
+                    <h4>Интеграция звуков в игровые сценарии</h4>
+                    <p>Завершена работа по привязке звуков к конкретным игровым ситуациям. Всего реализовано:</p>
+                    <ul>
+                        <li>12 обучающих сценариев с уникальным звуковым сопровождением</li>
+                        <li>47 вариантов реакции на действия игрока</li>
+                        <li>3 уровня громкости в зависимости от расстояния до источника звука</li>
+                    </ul>
+                    <p>Особое внимание уделено звукам, предупреждающим об опасности - они должны быть хорошо различимы на фоне производственного шума.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 LifeGuard. Все права защищены.</p>
+            <p>Проект создан Кузнецовым Данилой Ростиславовичем</p>
+        </div>
+    </footer>
+</body>
+</html>
